@@ -1,0 +1,4 @@
+.minutes:after,
+.hours:after {
+    content: ":"
+}
