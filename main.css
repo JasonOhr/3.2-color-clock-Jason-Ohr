@@ -1,4 +1,28 @@
-.minutes:after,
-.hours:after {
-    content: ":"
+body {
+    //background-image: radial-gradient(circle,#000000 0%, rgba(0, 0, 255, 0) 50%);
+
+}
+
+.counter {
+    width: 50%;
+    height: 200px;
+    margin: 17% auto;
+    text-align: center;
+    //border: 1px solid black;
+
+}
+
+.time {
+    visibility: hidden;
+    color: #f5f5f5;
+    text-align: center;
+    margin: 48px auto;
+    font-size: 5em;
+
+}
+.timerBar {
+    height: 2px;
+    margin: 0 auto;
+    width: 0%;
+    background-color: #fff;
 }
